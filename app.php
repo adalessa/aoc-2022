@@ -1,8 +1,10 @@
 <?php
 
+use App\Day04;
+
 /* use App\Day01; */
 /* use App\Day02; */
-use App\Day03;
+/* use App\Day03; */
 
 require("./vendor/autoload.php");
 
@@ -14,6 +16,10 @@ require("./vendor/autoload.php");
 /* echo "Day two solution part one: " . $dayTwo->partOne(); */
 /* echo "Day two solution part two: " . $dayTwo->partTwo(); */
 
-$day3 = new Day03(filePath: __DIR__ . '/inputs/day03/input.txt');
-echo "Day 3 solution part one: " . $day3->partOne() . "\n";
-echo "Day 3 solution part two: " . $day3->partTwo() . "\n";
+/* $day3 = new Day03(filePath: __DIR__ . '/inputs/day03/input.txt'); */
+/* echo "Day 3 solution part one: " . $day3->partOne() . "\n"; */
+/* echo "Day 3 solution part two: " . $day3->partTwo() . "\n"; */
+
+$day4 = new Day04(filePath: __DIR__ . '/inputs/day04/input.txt');
+echo "Day 4 solution part one: " . $day4->partOne() . "\n";
+echo "Day 4 solution part two: " . $day4->partTwo() . "\n";

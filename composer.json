@@ -23,6 +23,8 @@
         }
     ],
     "require": {
-        "phpstan/phpstan": "^1.9"
+        "phpstan/phpstan": "^1.9",
+        "illuminate/collections": "^9.42",
+        "symfony/var-dumper": "^6.2"
     }
 }
